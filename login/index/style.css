@@ -1,0 +1,92 @@
+body {
+  background: #0b1721;
+  background-size: 200% 114%;
+  background-repeat: no-repeat;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+}
+
+.login {
+  background-color: #e6ebe03d;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
+  height: 450px;
+  width: 500px;
+  padding-top: 100px;  
+}
+
+
+input[type="text"] {
+width: 200px; 
+padding: 10px;
+border: none;
+border-bottom: 2px solid #00ffff; 
+background: transparent;
+color: #fff;
+font-size: 16px;
+transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]::placeholder {
+color: #888; 
+}
+
+input[type="text"]:focus {
+outline: none;
+border-bottom: 2px solid #fff; 
+}
+input[type="password"] {
+  width: 200px; 
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #00ffff; 
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="password"]::placeholder {
+  color: #888; 
+}
+
+input[type="password"]:focus {
+  outline: none;
+  border-bottom: 2px solid #fff; 
+}
+input[type="number"] {
+  width: 200px; 
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #00ffff; 
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="number"]::placeholder {
+  color: #888; 
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-bottom: 2px solid #fff; 
+}
+a{
+  color: #00ffff;
+}
+h2{
+  color: #00ffff;
+}
+input[type="submit"]{
+  height: 40px;
+  width: 110px;
+  border-style: none;
+  border-radius: 50px;
+  background-color: #00ffff;
+}
